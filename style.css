@@ -30,6 +30,22 @@
     color: var(--text-color);
  }
 
+ .cv-btn{
+    display: inline-block;
+    padding: 12px 25px;
+    background: #1d82cf;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.cv-btn:hover{
+    background: #3878c6;
+}
+
  section{
     min-height: 100vh;
     padding: 10rem 9% 2rem;
@@ -143,6 +159,21 @@
     color: var(--second-bg-color);
     box-shadow: 0 0 1rem var(--main-color);
  }
+
+.btn1{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--main-color);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    font-size: 1.6rem;
+    color: var(--second-bg-color);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+ }
+
+
 
  .btn {
     display: inline-block;
